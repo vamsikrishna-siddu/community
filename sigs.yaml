@@ -192,6 +192,17 @@ workinggroups:
         - github: vamsikrishna-siddu
           name: "vamsikrishna-siddu"
           company: IBM
+    - dir: wg-arch-arm
+      name: ARM architecture working group
+      mission_statement: |
+        WG ARCH ARM takes care of all things related to supporting ARM architecture on KubeVirt clusters.
+        This includes all build processes, also support of failing builds or test lanes.
+      label: wg-arch-arm
+      leadership:
+        chairs:
+        - github: zhlhahaha
+          name: "Howard Zhang"
+          company: ARM
 usergroups:
     - dir: kubevirt-community
       name: KubeVirt Community
