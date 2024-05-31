@@ -7,17 +7,22 @@ This includes all build processes, also support of failing builds or test lanes.
 
 ### In scope
 
-#### Code, Binaries and Services
+#### Code
 
-- list of what qualifies a piece of code, binary or service
-- as falling into the scope of this WG
-- e.g. *clis for working with KubeVirt APIs*,
-- *CI for kubernetes repos*, etc
-- **This is NOT** a list of specific code locations
+All the code which adds the support of s390x architecture in KubeVirt. Whether this is modifying KubeVirt code itself or the build, test, CI, documentation or infrastructure code around this.
+
+#### Binaries
+
+All the binaries (i.e container images,binaries, packages/rpms, etc.) which are required for KubeVirt build, test, CI and infrastructure to run on s390x architecture. In other words, maintaining these binaries to work on s390x architecture.
+
+#### Services
+
+Infrastructure including bare metal servers and s390x prow jobs which are used for build/test the support of KubeVirt on s390x
+
 
 ### Out of scope
 
-Outline of things that could be confused as falling into this WG but don't or don't right now.
+Fixing of issues that are not related to s390x.
 
 ## Roles and Organization Management
 
@@ -29,3 +34,5 @@ This wg follows the Roles and Organization Management outlined in [OARP]
 - Resolve conflicts
 
 [OARP]: https://stumblingabout.com/tag/oarp/
+
+
